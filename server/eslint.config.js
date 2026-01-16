@@ -1,9 +1,9 @@
-export default [
+module.exports = [
   {
-    files: ['server/**/*.js'], // only check .js files inside server directory
+    files: ['server/**/*.js'],
     rules: {
       semi: 'error',
-      'no-unused-vars': 'warn', // warn if variables are unused
+      'no-unused-vars': 'warn',
     },
   },
 ];
