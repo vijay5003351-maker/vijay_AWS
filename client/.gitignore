@@ -25,7 +25,7 @@ dist-ssr
 src
 public
 node_modules
-package-lock.json
+
 vite.config.js
 index.html
 README.md
