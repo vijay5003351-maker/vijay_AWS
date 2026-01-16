@@ -2,13 +2,11 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY client/package*.json ./
 RUN npm install
 
-COPY . .
+COPY client ./
 
-# If index.html is inside client/, set build context properly
-WORKDIR /app/client
 RUN npm run build
 
 EXPOSE 3030
