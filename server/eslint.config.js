@@ -1,9 +1,9 @@
 export default [
   {
-    files: ['**/*.js'], // only check .js files in server directory
+    files: ['server/**/*.js'], // only check .js files inside server directory
     rules: {
       semi: 'error',
-      'no-unused-vars': 'warn', //warn if variables are unused
+      'no-unused-vars': 'warn', // warn if variables are unused
     },
   },
 ];
