@@ -27,7 +27,7 @@ public
 node_modules
 
 vite.config.js
-index.html
+
 README.md
 .env
 
